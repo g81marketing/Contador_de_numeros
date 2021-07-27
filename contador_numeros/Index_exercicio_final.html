@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ 
+  <title>CONTADOR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link href="css/bootstrap-datepicker.css" rel="stylesheet">
+ <script src="js/bootstrap-datepicker.min.js"></script>
+ <script src="locales/bootstrap-datepicker.pt-BR.min.js"></script>
+ <link   rel="stylesheet"  href="css/style.css"> 
+
+
+
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <!-- (Navbar Section) -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">CONTADOR</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">HOME</a></li>
+     
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Container (Contact Section) -->
+
+  <div class="container-fluid text-center ">
+       
+       
+            <div class="container contador bg-grey">
+              <h3> Entre um  Número entre 1 e 100:</h3>
+                 <input type="number" name="fnum" id="fnum">
+                 <input type="button"  class="btn btn-black" value="Adicionar" onclick="adicionar()"> 
+                 <br><br><select name="flista" id="flista" size="6"></select>
+                 <br><input type="button" class="btn btn-black" value="Finalizar" onclick="finalizar()"> 
+                 
+                 
+                 <div  id="res">
+      
+             </div>   
+             
+            
+              
+            </div>
+                     
+              
+             </div>
+           
+      
+
+  
+  
+
+
+
+  
+<!-- (footer) -->
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Tabas Form <a href="https://www.tabas.com" title="Visit Tabas">www.tabas.com</a></p>
+</footer>
+
+<script type="text/javascript">
+    $('#txtano').datepicker({
+        format: "dd/mm/yyyy",
+        language: "pt-BR",
+      
+
+       
+    });
+    </script>
+
+<script src="js/sourcefinal.js" >   </script>
+
+
+
+
+</body>
+</html>
